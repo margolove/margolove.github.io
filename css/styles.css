@@ -1,25 +1,8 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
-@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas');
 
-section {
-  overflow: auto;
-}
-
-textarea {
-  resize: vertical;
-}
-
-.center {
-  text-align: center;
-  h1 {
-    margin-bottom: 10px;
-  }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.05;
-}
 
 h1 {
   font-size: 3em;
@@ -52,27 +35,22 @@ p {
   color: #7c7c7c;
 }
 
-#photorcorners {
-  border-radius: 25px;
-  border: 1px solid #33cccc;
-}
-
 #logo_h2 {
   padding: 10px;
   font-size: 1.4em;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Mountains of Christmas', cursive;
   vertical-align: middle;
   text-align: center;
   float: left;
 }
 
+.deco_font {
+  font-family: 'Mountains of Christmas', cursive;
+}
+
 #logo_h2:hover {
   opacity: 0.8;
   text-decoration: none;
-}
-
-.pacifico {
-  font-family: 'Pacifico', cursive;
 }
 
 .fa {
@@ -90,5 +68,6 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
+  text-align: center;
   color: #7c7c7c;
 }
